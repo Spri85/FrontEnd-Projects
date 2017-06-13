@@ -1,0 +1,33 @@
+body {
+    background: #232323;
+}
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.666%;
+}
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#message{
+
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+}
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.selected {
+    background: blue;
+}
