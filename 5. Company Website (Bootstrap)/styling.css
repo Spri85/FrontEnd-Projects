@@ -1,0 +1,128 @@
+/*Style body by adding background image and set it to cover and font-family*/
+html{
+  position: relative;
+  min-height: 100%;
+}
+body {
+  font-family: Arvo, sans-serif;
+  background: url(http://freenaturestock.s3.amazonaws.com/232.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 756px;
+}
+
+
+/*Style brand*/
+.navbar-brand{
+  padding: 5px;
+  
+}
+
+.logo {
+  height: 35px;
+  width: auto;
+}
+
+
+/*Style navigation bar*/
+
+.navbar-inverse {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.nav li {
+  color: #fff;
+  font-size: 17px;
+  margin-right: 35px;
+  padding: 10px 0;
+}
+
+.nav li:hover {
+  border-bottom: 1px solid #00FFB2;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
+
+/*Style jumbotron*/
+
+.jumbotron {
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  letter-spacing: 2.5px;
+}
+
+
+/*Limit the width of the icons section*/
+
+.container {
+  max-width: 1000px;
+}
+
+
+/*StyleStyle icons section using bootstrap grid system*/
+
+.bodyimage {
+  height: 100px;
+}
+
+.col-md-4 {
+  text-align: center;
+  color: #fff;
+}
+
+.icons p {
+  font-size: 15px;
+}
+
+
+/*Style contact button*/
+
+.contact {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  background-color: rgba(0, 255, 178, 0.5);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 70px;
+  letter-spacing: 1.3px;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+}
+
+
+/*Style footer*/
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 60px;
+  color: grey;
+  font-size: 15px;
+  padding: 10px 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  
+}
+
+
+/*Use media query to change icons size in small devices*/
+@media (max-width: 768px) {
+  .bodyimage{
+    height: 70px;
+  }
+}
